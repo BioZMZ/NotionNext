@@ -19,12 +19,12 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是一个程序员, Hi，我是一个打工人,Hi，我是一个干饭人,欢迎来到我的博客🎉',
+    'Welcome to BioinfoZMZ's profile ! ! !',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'BioinfoZMZ', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 'A postgraduate student in HZAU, focusing on Omics Data Analysis, Data Science and Music', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || 'A postgraduate student in HZAU, majoring in BIOINFORMATICS , focusing on Omics Data Analysis, Data Science and Music', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'www.bioinfozmz.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Metagenome analysis, RNA-seq analysis, scRNA-seq analysis', // 网站关键词 英文逗号隔开
 
